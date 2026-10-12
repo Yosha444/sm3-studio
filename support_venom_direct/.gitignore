@@ -1,0 +1,15 @@
+# Built or generated per player / per mod: never commit them.
+# shaders.h is made from the game's own shaders (make_shaders_h.py): it must not be published.
+shaders.h
+atlas_signature.h
+atlas_signature.json
+venom_direct_atlas.tex
+installation.json
+venom_direct.log
+*.dll
+*.exe
+*.obj
+*.lib
+*.exp
+*.asm
+*.bin

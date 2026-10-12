@@ -1,0 +1,15 @@
+{
+  "resolution": 4096,
+  "geometrie": "retrianguler",
+  "marge_pixels": 8,
+  "limite_triangles": 10000000,
+  "autoriser_couleurs_unies": false,
+  "vertex_color": [
+    0,
+    0,
+    0,
+    255
+  ],
+  "format": "DXT5",
+  "dilation_pixels": 12
+}

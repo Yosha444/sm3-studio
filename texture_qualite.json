@@ -1,0 +1,73 @@
+{
+  "_aide": {
+    "fichier": "Settings of the texture (.tex) encoding done by tools/png2tex.py. Read at EVERY texture write: a change applies at the next build, without rebuilding the exe (but an SM3 Studio.exe that is already open keeps the old png2tex in memory: restart it after updating tools/). Missing file, missing key or invalid value: default value. Keys starting with _ are comments, ignored by the tool. The keys are French and must stay as they are: encodeur = encoder, lissage = smoothing, actif = active, rayon = radius, garde_noir = black guard, mips_couleur = colour mips, normale = normal map, fondu = fade, renormaliser = renormalise, dilatation = dilation, anneaux = rings, fond = background, par_texture = per texture, tissu = fabric, seuil_fil = web-line threshold, format_force = forced format, taille_max = maximum size, plaquer = flatten, noir = black.",
+    "encodeur": "\"hq\" (default): high-quality DXT encoder (principal axis + least squares + nearest 565 rounding, the block that DECODES best is kept), about 10 s for a 4096 DXT5 chain. \"rapide\" (fast): the old encoder (luminance min/max, truncated 565), dark blocks along the web lines.",
+    "lissage": "CIELAB bilateral filter applied to mip 0 of COLOUR textures in DXT, outside the background: it erases the bake noise that DXT turns into dirty blocks and keeps the edges (web lines). actif true/false; rayon (radius) in texels (0 = nothing); sigma_spatial in texels; sigma_couleur (colour sigma) in dE (larger = also smooths stronger colour differences). garde_noir (black guard) [L0, L1] in L*: a texel darker than L0 stays raw, a texel lighter than L1 is fully smoothed, blended in between -- it protects the thin blacks (gaps between the symbiote's scales) that the filter used to wash out to grey; [0, 0] = no guard. Never applied in ARGB8 (lossless).",
+    "mips_couleur": "\"srgb\" (default, as before): 2x2 average of the sRGB values. \"lineaire\" (linear): average in linear light (physically right: thin light/dark details keep their average brightness at a distance).",
+    "normale_fondu": "Suit normal map (0x61DCA273, X in the alpha, Y in the green): relief factor per mip level, 1 = full relief, 0 = flat. The last number applies to every following level. The sub-texel relief of the web lines only shimmers beyond mip 2. With normale_renormaliser false, these numbers are EXACTLY those of the red-suit normal map validated in game (relief = f x mean slope).",
+    "normale_renormaliser": "false (default): mips = 2x2 average of x and y, linear fade (f*x, f*y), like the red-suit normal map validated in game. true: average of (x,y,z) renormalised, then normalise(f*x, f*y, z) -- keeps about 20 % more relief at mips 2-5 for the same fade.",
+    "dilatation": "Filling of the BACKGROUND (texels with RGB exactly 0,0,0, or alpha 0 if the image has a real alpha) before each reduction, so that the mips do not darken the edges of the UV islands. anneaux (rings) = texels filled per level. fond_min_pct: below this share of background (in %), the atlas is considered already dilated and its blacks are content (nothing is touched).",
+    "par_texture": "Settings for ONE texture: key = its hash (\"0x0133FD92\"), value = the same keys as above (only those given change). This table REPLACES the default one: {} = no exception. By default, the black suit atlas (0x0133FD92): no bilateral filter, lissage_tissu active, ARGB8 2048 (validated in game on 2026-10-06). To go back to the old look (DXT5 4096, pattern kept): \"0x0133FD92\": {\"lissage\": {\"actif\": false}}.",
+    "lissage_tissu": "Smoothing of the BASE of the fabric of a dark atlas. Web lines, logos and eyes (texels whose sRGB lightness is >= seuil_fil, grown by fil_dilate texels) are kept as they are; the rest gets a gaussian blur of `sigma` texels in linear light; detail 0 = plain fabric, 1 = pattern kept. Made for the BLACK suit, where the bilateral filter is blind (everything sits below L* 3): the scale pattern on an almost-black background was the grain seen in game. Off by default, turned on through par_texture for 0x0133FD92.",
+    "format_force": "\"\" (default) = the format chosen in Studio; \"ARGB8\" / \"DXT5\" / \"DXT1\" = force this format on the texture (colour atlas; a normal map always stays DXT5). The black atlas is ARGB8: DXT cannot render near-blacks (purple/green stains).",
+    "taille_max": "0 (default) = no limit; otherwise mip 0 is reduced (2x2 sRGB average) down to this size. ARGB8 2048 = same file size as DXT5 4096.",
+    "normale_plaquer": "[low, high] in degrees: the WEAK relief of the normal map (smoothed slope < low) is flattened, the strong relief (> high, the edges of the web) is kept. [0, 0] (default) = nothing.",
+    "noir_normale_plaquer": "What the BLACK suit chain (blacksuit_package) applies to ITS normal map (slot 0x61DCA273 is shared with the red suit, hence a separate key): [9, 14] = flat fabric, web kept, the version validated in game on 2026-10-06. [0, 0] = relief of the scales kept."
+  },
+  "encodeur": "hq",
+  "lissage": {
+    "actif": true,
+    "rayon": 4,
+    "sigma_spatial": 3,
+    "sigma_couleur": 5,
+    "garde_noir": [
+      0.5,
+      3
+    ]
+  },
+  "mips_couleur": "srgb",
+  "normale_fondu": [
+    1,
+    1,
+    0.75,
+    0.5,
+    0.3,
+    0.15,
+    0
+  ],
+  "normale_renormaliser": false,
+  "dilatation": {
+    "actif": true,
+    "anneaux": 2,
+    "fond_min_pct": 5
+  },
+  "lissage_tissu": {
+    "actif": false,
+    "sigma": 16,
+    "detail": 0,
+    "seuil_fil": 48,
+    "fil_dilate": 3
+  },
+  "format_force": "",
+  "taille_max": 0,
+  "normale_plaquer": [
+    0,
+    0
+  ],
+  "noir_normale_plaquer": [
+    9,
+    14
+  ],
+  "par_texture": {
+    "0x0133FD92": {
+      "lissage": {
+        "actif": false
+      },
+      "lissage_tissu": {
+        "actif": true
+      },
+      "format_force": "ARGB8",
+      "taille_max": 2048
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "note": "Fingerprints of the SUSPENDED \"direct\" Venom pack patch (Sept. 2026, it crashed the game). Used by venom_install.py only to recognise a pack that still holds it and to put the original bytes back, taken from the player's own files. No game bytes in this file.",
+  "pack": "STORY_MOVIE_4_PHASE3.PCPACK",
+  "size": 20574208,
+  "original_sha256": "9d5e63f8c18328e7b9b07786e37b5cc14ad9c58bb91237a2578ea30a4486993f",
+  "patched_sha256": "30d18cda75ee50d9b5afe5502e3b22166f222685672736e0c07e3a89cd1a531b",
+  "patches": [
+    {
+      "offset": 1868480,
+      "length": 184,
+      "sha256_original": "bca6dbccbea1f712ff7e3193c85cfed7c8b369c15328af1b3521335d1d4cc081",
+      "sha256_patched": "1a581876c7e23b02f5ee12fab7082dcee90816f8947e88344df96878feb4d6e7",
+      "kind": "material",
+      "purpose": "Venom material record (ch_venom01_-_default.mat) rewritten to use the Spider-Man character shader with Venom's textures in the direct albedo and normal slots"
+    },
+    {
+      "offset": 20547844,
+      "length": 4,
+      "sha256_original": "3ce18e5578921760bf8dff6a44767922413186cde45bbb4b7b1a3badec5b14ee",
+      "sha256_patched": "57b61bfb855d4a42365b27af67525a5e4cf35b74d60894bb9b2a1d30e15dc4b1",
+      "kind": "relocation",
+      "material_dword": 652,
+      "field_original": 56,
+      "field_patched": 128,
+      "purpose": "relocation entry of the material moved from field +0x38 to +0x80"
+    },
+    {
+      "offset": 20547848,
+      "length": 4,
+      "sha256_original": "93992bae5dfa909059d8350aa0174c257b3325de7c6cff531b1c5e8992793d14",
+      "sha256_patched": "205eca259e6452a23d2c2333311a2b28fb0aa13c6bafb79f89810514714953df",
+      "kind": "relocation",
+      "material_dword": 652,
+      "field_original": 52,
+      "field_patched": 36,
+      "purpose": "relocation entry of the material moved from field +0x34 to +0x24"
+    },
+    {
+      "offset": 20568596,
+      "length": 4,
+      "sha256_original": "e7528b96240e04e5f6d5491a561cd1bb1c0228d34d0d9dd307ad3a6941bef2b7",
+      "sha256_patched": "9a0f8ec2df5d45daf9cf38f1b032608a58c3187cf5cc3b17fa496bb73e40780e",
+      "kind": "relocation",
+      "material_dword": 652,
+      "field_original": 60,
+      "field_patched": 132,
+      "purpose": "relocation entry of the material moved from field +0x3C to +0x84"
+    },
+    {
+      "offset": 20568612,
+      "length": 4,
+      "sha256_original": "418c0d0f083d4de4610e24e03995940ab2d7fe47a6d3d51e951efb505bbc57cd",
+      "sha256_patched": "84094ab94b056bc02ea671c385e5f16313261a131b13325436b00dcf2f08d116",
+      "kind": "relocation",
+      "material_dword": 652,
+      "field_original": 64,
+      "field_patched": 168,
+      "purpose": "relocation entry of the material moved from field +0x40 to +0xA8"
+    },
+    {
+      "offset": 20570676,
+      "length": 4,
+      "sha256_original": "95bbb69057343664b86e2c986fe59a8841dc00c1f0a335e8f9f05e19a2c611af",
+      "sha256_patched": "e5a3f7155317aed01f89a1b75e78bb78485ecf4394d9a059ef7b9101ea757560",
+      "kind": "relocation",
+      "material_dword": 652,
+      "field_original": 40,
+      "field_patched": 172,
+      "purpose": "relocation entry of the material moved from field +0x28 to +0xAC"
+    }
+  ],
+  "status": "suspended: reported to crash the game on 2026-09-08 (the pack was restored 4 minutes after the installation)"
+}

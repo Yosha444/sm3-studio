@@ -1,0 +1,141 @@
+# SM3 Studio - what must never be committed
+#
+# This repository holds OUR code, notes and measurements, and nothing else. Everything that comes
+# from Spider-Man 3 (or from Spider-Man: Web of Shadows), every 3D model and texture, every built
+# file and every personal setting stays out. The rules are deliberately broad: when in doubt, a
+# file is ignored. To publish a file of a blocked type on purpose (a screenshot in docs/, say),
+# add an explicit "!" exception below and write down why. See README.md, "What this repository
+# does not contain".
+
+# --- Game data, rebuilt on each player's machine ----------------------------------------------
+# tools/extraire_donnees_jeu.py writes these folders from the player's own copy of the game.
+# They belong to Activision/Treyarch: never commit them.
+/vanilla/
+
+# profiles/: everything is ignored except our README and our own measurement files (numbers and
+# SHA-256 fingerprints, no game bytes). The pattern "dir/*" + "!dir/" + "dir/*" + "!file" is the
+# way git allows re-including a file inside an ignored folder.
+/profiles/*
+!/profiles/README.md
+!/profiles/blacksuit/
+/profiles/blacksuit/*
+!/profiles/blacksuit/comparison.json
+!/profiles/blacksuit/frames.json
+!/profiles/venom/
+/profiles/venom/*
+!/profiles/venom/roundtrip_validation.json
+# Spider-Man: Web of Shadows profile (another game; copied by hand from an older installation).
+# Only sources.json, the SHA-256 list of the two exports SM3 Studio recognises, is ours.
+!/profiles/rvb/
+/profiles/rvb/*
+!/profiles/rvb/sources.json
+
+# Venom research folders. support_venom_atlas/ used to hold a modified copy of a game pack: only
+# its README is published. support_venom_direct/ builds files from the player's Game.exe and mod
+# (shaders.h is game bytecode); its own .gitignore lists them too, this is a second safety net.
+/support_venom_atlas/*
+!/support_venom_atlas/README.md
+/support_venom_direct/shaders.h
+/support_venom_direct/atlas_signature.*
+/support_venom_direct/installation.json
+/support_venom_direct/shader_build.json
+*.asm
+*.lib
+*.exp
+
+# --- Game file types, wherever they appear ---------------------------------------------------
+# Packs and the loose resources xeSM3 loads (also the 0x<hash>.<name>.wrap.* resources).
+*.PCPACK
+*.pcpack
+*.PCAPK
+*.pcapk
+*.PAK
+*.pak
+*.toc
+*.apkf
+*.mesh
+*.skel
+*.mat
+*.tex
+*.anim
+*.dds
+*.fsb
+*.bik
+# Raw blobs: texture headers (*.hdr68.bin), shader bytecode, Game.exe.costume_mat_origine.bin,
+# venom_direct_material.bin...
+*.bin
+# Game.exe, its copies and backups (Game.exe.original, Game.exe.sauvegarde_patchs_sm3, ...), and
+# every executable or library: SM3 Studio.exe is built from this repository, Windows' winmm.dll
+# is copied from the player's own system (support_venom_direct/install.py).
+Game.exe*
+*.sauvegarde_patchs_sm3
+*.exe
+*.exe.*
+*.dll
+
+# --- 3D models, textures and archives -------------------------------------------------------
+# Models and their textures are their authors' work (and often rips of other games). The
+# formats are those SM3 Studio accepts as a source (sm3_convertir.FORMATS / IMAGES).
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.dae
+*.ply
+*.stl
+*.x3d
+*.abc
+*.usd
+*.usda
+*.usdc
+*.blend
+*.blend1
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.psd
+*.zip
+*.rar
+*.7z
+# Pictures made for the documentation are allowed, in docs/ only.
+!/docs/**/*.png
+!/docs/**/*.jpg
+
+# --- Built and generated files --------------------------------------------------------------
+# build/<mod>/ = intermediate files of each conversion; mods/<mod>/ = the deliverable mods.
+/build/
+/mods/
+# PyInstaller output (construire/README.md).
+/construire/dist/
+/construire/work/
+__pycache__/
+*.py[cod]
+# Traces written next to meshes (finger and section-split traces) and other numpy dumps.
+*.npz
+# Half-written files (interrupted extraction, settings replaced atomically).
+*.tmp
+# Logs: install.log / boucle.log (Install and launch game), venom_direct.log... They hold
+# personal paths.
+*.log
+# Backups that the installers make in the game folder, if one ever lands here.
+SM3_Studio_Backups/
+mods.config.ini*
+
+# --- Personal settings ----------------------------------------------------------------------
+# Written by the window next to SM3 Studio.exe (or next to the sources): blender.exe path,
+# project folder, game folder, last model, every field of the window.
+/sm3_studio.json
+# The interface language chosen at the first start.
+/language.txt
+
+# --- Editors and operating system -----------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

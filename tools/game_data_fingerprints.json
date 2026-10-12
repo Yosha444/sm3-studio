@@ -1,0 +1,1101 @@
+{
+ "about": [
+  "Size and SHA-256 of every game-data file of the reference SM3 Studio installation (2026-10-08),",
+  "the one the tool was developed and tested with. tools/extraire_donnees_jeu.py checks the files",
+  "it rebuilds from the player's game against this list. A fingerprint does not contain any game data.",
+  "extracted   : rebuilt from the player's Spider-Man 3 packs by tools/extraire_donnees_jeu.py",
+  "distributed : our own measurements (numbers, hashes), shipped with SM3 Studio",
+  "optional    : Spider-Man: Web of Shadows data, never extracted (Web of Shadows mode off without it)",
+  "Not listed  : profiles/venom/Venom_editable.blend(1), Blender files, not byte-reproducible"
+ ],
+ "extracted": {
+  "vanilla/CH_BLACKSUIT/resources.json": {
+   "size": 21316,
+   "sha256": "97d9b6b4b9215d3683c835203d09430d411ecb6fd4a3f8d0e8fd69be6ff99f67"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x0133FD92.ch_blacksuit_spider.tex": {
+   "size": 8260,
+   "sha256": "5bcaf52692b988b6015b50a04779bf80c7577c6dedf3269fa521f1df3f624d91"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x037B351C.ch_blacksuit_topweb.tex": {
+   "size": 11004,
+   "sha256": "1efcd5b06371cb347a4327801905bf9ac8f45747750eb3f6e1774f1d68d4a6dd"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x05D0A869.itm_meleeicon_material.mat": {
+   "size": 160,
+   "sha256": "66e1d3334e6cb2684c08d332f3424df8fbed82b955a81ceda4f18d00091e0827"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x07690482.fx_bs_radspecial_lvl4_xlg_rage000.mesh": {
+   "size": 1176,
+   "sha256": "9d76531097694fdc48bf87dea2b96c16903782e0bde581e77271c2a741306d00"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x097E77BE.fx_bs_radspecial_med_ragesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "a68aab4e9bb89dbdb58f45338bcdbc8121436b420af0df94ab9c8e1c894d6429"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x0BD86759.fx_sm_radspecial_med000.mesh": {
+   "size": 1176,
+   "sha256": "466314514b9791b784b8fbad6c4cadd0977a647bd454e134a976b0fba7c735e9"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x0C402D93.ui_tr_01000.mesh": {
+   "size": 8510,
+   "sha256": "64d15c5bde1c5889000b4db1f880e44e480147c642dec22f8484d4cded0e2e43"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x0D15BD49.fx_bs_rad_smsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "929db319d4d8d8586ec237a46ccab4b2fe281411bf434c31bde419da2912fbbb"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x0EBC38A6.fx_webtie_mid000.mesh": {
+   "size": 25110,
+   "sha256": "30a9c9d890df1073693ea141ac4de25512033dde0e401938ecbf683e57888063"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x0F7C97DC.itm_dodge000.mesh": {
+   "size": 16526,
+   "sha256": "ae42fc85fc5ccf8ef0f8d9c5f0f36afa2e06ee6234a2b338db7fb521ed49f229"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x10505109.fx_bs_radspecial_lg_rage000.mesh": {
+   "size": 1176,
+   "sha256": "6b6b59e2fe252f3d4b1e207e14dfe6ce2f8e3d9478d5210126edf013e3bd83b5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x10A68B6D.fx_bs_rad_med000.mesh": {
+   "size": 1176,
+   "sha256": "3b42c009692ccaa2f9f48326289862f95a177a390fdf480780b5670ce232f808"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x10D937E0.fx_bs_hit_heavy_rage000.mesh": {
+   "size": 1176,
+   "sha256": "eaa136a27b4bf9c7d2af76444ad99c983355ebe12185f17e634057e41e35c884"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x124A0F96.fx_bs_hit_ragesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "9c30d971f16dd51459cc1f2304b923c1eb34e26f912405641fc023bca1c6b701"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x16FAB721.ch_blacksuitspider_black.mat": {
+   "size": 168,
+   "sha256": "ea3de363795bf18d2601d5c69077112da1d8ae3bfdc233f856a75d6562903fee"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x172AB281.itm_meshhitsparkafx_hitsparka.mat": {
+   "size": 68,
+   "sha256": "3d51f0460346871d117bd0b03e815e93c81798a0a196efaa7e3c663b220c5c40"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x172AB282.itm_meshhitsparkafx_hitsparkb.mat": {
+   "size": 68,
+   "sha256": "ea306ba7f95491ad7d788787954195aaeb313983471bae5294ccbed1e133c768"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x1782F86B.fx_genhit_chargedsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "f8c9f1bdfe3f7c32a5c7f454e32b3a6e1056d7c5b6c5195bf8d20e962eedf204"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x17DE6DA3.fx_webtie_torso000.mesh": {
+   "size": 25110,
+   "sha256": "ef79e71096c1a91d4a10383c258071ae6889682e48a915567d199cbe653f8cdd"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x1C3CDDB5.fx_arc_c.tex": {
+   "size": 8260,
+   "sha256": "2074e33fa97624c6c82340a2d47fe84f54176740d16306a41a0e348eeae9da82"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x1C3CDDB6.fx_arc_d.tex": {
+   "size": 32836,
+   "sha256": "109a6b8675b2cd5817d739d10068478feb46c1a2ba3110674f8613aaf4411588"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x1C3CDDB7.fx_arc_e.tex": {
+   "size": 10948,
+   "sha256": "851eaa77c7c89aa087426dc4468a94f731027a7d3aa0fcb6067a6578c635e04a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x1F51C916.fx_sm_radspecial_lg000.mesh": {
+   "size": 1176,
+   "sha256": "a3c1c50f16d17794e585933f149f5662755790a79f20e4208173e8f74197ef46"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x2755581D.fx_ring000.mesh": {
+   "size": 396,
+   "sha256": "39877fed9451f070fed0ed32c525d944f72bc7ffd53cc25a13629498b9187c7b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x2832FA2D.fx_bs_2he_charged000.mesh": {
+   "size": 1176,
+   "sha256": "8fba04bec67d43172e26467983dccf7452ea47c85f0a35f3413c757bd2be4b46"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x2CC67D25.itm_dodgeicon_material01.mat": {
+   "size": 160,
+   "sha256": "3a559380b3970878b6a2e98d85a778a60b4e1a8b9e3f44694fbc420684227413"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x2E86D715.ch_blacksuitred_black.mat": {
+   "size": 168,
+   "sha256": "e6855835af94e1184075c98d2dde20cbf9f5cece6d6ccc20c08a649b9bf959e9"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x2EB057E4.c_environa.tex": {
+   "size": 8260,
+   "sha256": "70587aeee4bdb8e070ef1c46896642179bf1327293d0f9498e7e9f2fb94736cf"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x302DADCC.ch_blacksuitskeleton_ch_blacksuit000.skel": {
+   "size": 10816,
+   "sha256": "dc6bc7819a114c6d9c841731b87679d98698a5225f21f46c387c47918267af07"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x302DADCD.ch_blacksuitskeleton_ch_blacksuit001.skel": {
+   "size": 10816,
+   "sha256": "61066f48f7d63a5626e85090531e7ac7f65275f810247867e617c81826e14b6e"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x35BAB9AC.fx_webtilea_opac.tex": {
+   "size": 43772,
+   "sha256": "21688e9d0fcf7b210b324ef11723123afc473e2aa08ddc09f749118e3fd8eb17"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x35CC4BB3.ch_blacksuitred_black__lod.mat": {
+   "size": 44,
+   "sha256": "34a068c059f8ce0141212f507946d52ba78e2d8c0863b88d42f93eee87ec9ad4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x3A650AEE.fx_webtilec_opac.tex": {
+   "size": 43772,
+   "sha256": "b69eef62c49de6073505e383c5e77488cf8d43503e2efc7685ed8a78877564a3"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x3AADD893.itm_exomissleitm_exomisslematerial.mat": {
+   "size": 160,
+   "sha256": "106bcc1cc6c822103e5015add4448d12d73b9be49c01f84a6d3c0a227fc87ef9"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x3D79FE92.fx_bs_2hesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "3af9b34d717aadbfbf84442c97505f9459663c64f35fc1cc6c5dae770d3229b5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x3F8C144E.fx_sm_radspecial_lvl3_xlg000.mesh": {
+   "size": 1176,
+   "sha256": "f2d8b6e9f39a1072ac7969ff38efe18da84d8bf4153b45e1262c402e0ca9e1b2"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x40224F94.itm_meleedisc.mat": {
+   "size": 160,
+   "sha256": "f9f764429c42282f4b2e59bd13fdee8b3d3e668575aa4916b662a5be319eec61"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x40234440.itm_meleeface.mat": {
+   "size": 160,
+   "sha256": "2d9b11b0b588e7d9531ee320ceb26d2c6b0f67bd0427fc159abdfbf463fa8d7d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x40A20CC0.ch_blacksuitblue_black__lod.mat": {
+   "size": 168,
+   "sha256": "8aaa91223303c2524a3611f15797e9a02ce54290eb2e2d65e5650a6a67e14a2f"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x41137ED0.ch_blacksuitbackspider_black__lod.mat": {
+   "size": 168,
+   "sha256": "7f709715ed4ed67bc0554abc08e2618f75f481710e0902e853cf0760c80235d7"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x41B15B18.fadein2.tex": {
+   "size": 8260,
+   "sha256": "21f35a441034e463a2dd20558c56a9e93a80e175a1df8c6652a1b8847d627105"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x42B901E3.fx_genhit_light000.mesh": {
+   "size": 1176,
+   "sha256": "0c28e972e3ec287c8847a52e2a3d3553978e9c76c5476f1fc47f83bbf53a4033"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x468B927D.itm_exomissile_dif.tex": {
+   "size": 43076,
+   "sha256": "9398daf3a012dba2c05c9fca461d58abcc0336ac0a7158b7f5a4291548606fb1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x468B9773.itm_exomissile_env.tex": {
+   "size": 2756,
+   "sha256": "15dbc59f999242c9bf8015668d542a748b5424419f0a308e5258dc97ef8bb1f5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x468BA34D.itm_exomissile_hgt.tex": {
+   "size": 43076,
+   "sha256": "3c9473b42745a85a7b57a12d58833b41c0c2622ded849c2171811d71a479f68d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x468BD332.itm_exomissile_spe.tex": {
+   "size": 43076,
+   "sha256": "abfb5345bf94737d39f39678c97cf6c92279db5dbc68c8e98013d7260cc98614"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x469419A2.ch_blacksuitblue_black.mat": {
+   "size": 168,
+   "sha256": "0c5182b0392610d26cbc260cf33b672193985fe4552e7844224196356f1038fd"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x4871F5C4.itm_dodgeicon_material.mat": {
+   "size": 160,
+   "sha256": "c6a14c4ba17b1bc5680c2bd2f27b3941c80cd1b0c4a63d23032e40ecbab3f3cf"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x4962D5F9.ch_blacksuitwhite_black__lod.mat": {
+   "size": 168,
+   "sha256": "223e76806ab8bc5265a6d274ef97ffe7f6d213c144d0604baaa9ed52e911ca0c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x49F11C5B.ch_blacksuit_webbing_dif.tex": {
+   "size": 2812,
+   "sha256": "2e50d2b8e5485d955a9b37a4c36139f0fc48bbda54dc064928d51d3cdad514af"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x49F15D10.ch_blacksuit_webbing_spe.tex": {
+   "size": 2812,
+   "sha256": "36afa38cbf99e9004b5198dd27bd81e95562ea959a56ce0e2cc6c9df3e9d2eec"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x49F15D23.ch_blacksuit_webbing_spx.tex": {
+   "size": 2812,
+   "sha256": "5c0b76210b53132f7a1533fa2c62e495642d6445beffe08ebb78f1ac9c1680d4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x4A9E8E20.fx_bs_2he000.mesh": {
+   "size": 1176,
+   "sha256": "c4eab083ab59325f71c05e16d82b9b308cc474f649caf0daa6b03c6f457168f0"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x4F34047C.fx_webtilea_dif.tex": {
+   "size": 21940,
+   "sha256": "cb75b4f9be991b95fd246159ee18c7840881d9554970fa0a8872e6d43cffc0a5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x50C9DC88.fx_genhit_heavy000.mesh": {
+   "size": 1176,
+   "sha256": "e61cfe2616bdd84a8993d77a4b431bfccbe4bbccd4949c7e843b75e29913ad03"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x51C63D18.fx_bs_hit_specialsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "ff4a64eb91ecebdea68759bd37f895e3b6fd81515945e85f331a785fd7111c8d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x564F1E67.fx_streak_a.tex": {
+   "size": 2116,
+   "sha256": "1f32d9e2b6674ab4d5f99d8b550dee839ebd0acf5263907f2dfa7b5cd66b0ec7"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x564F1E6C.fx_streak_f.tex": {
+   "size": 16452,
+   "sha256": "715cd528a6fd96821533dea50fd79404487f2bf846daea8c99ba9e79b605aa02"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x564F1E6D.fx_streak_g.tex": {
+   "size": 8260,
+   "sha256": "e22e957925003d5ab2efabc1270e889486e70ff5ee5a48492d058614817dd4a6"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x5F014BA8.fx_webball_medmask1.mat": {
+   "size": 160,
+   "sha256": "a7d55b99cbd8ee90fe7d6ec898836d3ea6c7d017f6df2907607f8892bc7ac062"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x5F014BA9.fx_webball_medmask2.mat": {
+   "size": 160,
+   "sha256": "2a7d53faa2c0b5292de389d8eedcfd14aa898c49e7118c8d7a5f138e80f767d8"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x611E7083.spideywebstring.tex": {
+   "size": 16452,
+   "sha256": "19ef6ef2c1527e6f5524be888c65595bb50fa8b23d23a775af8014f9fdf39656"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x61DCA273.normswizzle.tex": {
+   "size": 1460,
+   "sha256": "c36d788e5600691e5b9d52370c830bbe719550668f05ff6d13128880b3c92883"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x62740677.fx_webball_lrgmask1.mat": {
+   "size": 160,
+   "sha256": "f4f2dcc4ee0577db2aea0696d39bf3488770daebdd3efdb7bac54ef9ba686e2b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x62740678.fx_webball_lrgmask2.mat": {
+   "size": 160,
+   "sha256": "a299395ca62d0ce0e5e3f34dfb4906e384cad5e82775a73d5c3a19d2511a6c1a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x630773FE.fx_webball_smlmask1.mat": {
+   "size": 160,
+   "sha256": "2515df0f7ed1713ead18f90225b690460e3b78190de22a64bd8c6fc0f88e7c69"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x630773FF.fx_webball_smlmask2.mat": {
+   "size": 160,
+   "sha256": "91ad980371c0a3f8599a3f2a52dd46ab9366aad5854902a1ff386e6bac67c7f2"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x639ACF6B.ch_blacksuittopweb_black.mat": {
+   "size": 168,
+   "sha256": "ca5b29f68b6f9a4280529e79a08fa17c858643281f2a7833994dde4d6ef4cca2"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x640DC3CC.fx_bs_radspecial_med_rage000.mesh": {
+   "size": 1176,
+   "sha256": "5aeeb8978cf25ef57f9fae6e0e359ad071c61e679e952fbc604d98ca1d1f9f80"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x65771256.fx_bs_radspecial_lvl4_xlgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "45ae3a7af2b02324dd95121f24d537477d399dbc2fb815de8a87735e6ce22d5d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x669493AA.fx_webball_lrg000.mesh": {
+   "size": 17650,
+   "sha256": "3583d62a93a67b2e5e8e2bdd04137816ed4017cb65e2b3ac3e79ced8978f6126"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x67FCD89B.fx_webball_med000.mesh": {
+   "size": 17630,
+   "sha256": "dff2cff311d28d4cdd41bc30389d6f5b2dc2fc4f26af57f3e4c04f5c59886cbe"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x68DDD767.fx_gen_chargeup_asewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "e1c55e7327fc0f32e4ac016f659d7205367743121827d31a1c9b33536fa4657c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x69569432.itm_exomissle000.mesh": {
+   "size": 12086,
+   "sha256": "bca1057542c1abd77e01425243089c8ea0805d9c26955ae3fdd402a00db2191e"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x6A704052.fx_bs_hit_heavy_ragesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "b952987c29632e0cb3db3ecee7b0ffe70720c6aaec80e000ea82c3691c03eaf8"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x6C018F3D.fx_sm_2hesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "0b9d8c1417720060b866ddf8a110326aaa75c5a127e7009c66ea95f3ccb6c6c0"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x6E8BC841.itm_melee000.mesh": {
+   "size": 18674,
+   "sha256": "7c1217dd5e263a4a85c5e240e40b50665c13654ea050081c73cc812bd5792c73"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x6ED72E5B.ch_blacksuitwhite_black.mat": {
+   "size": 168,
+   "sha256": "7d27b9e92575fa608c862406392c4a51a4333dd517e606d7824dc3dc42c3d87c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x6FCECA1C.ch_spidermanlod_tex2_nor.tex": {
+   "size": 349620,
+   "sha256": "718f04ab85421c848a8f26a7695958698593fbbe494c166305c471b8b6d048ed"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x70FE7BB1.ch_spideyps3_webbingalpha.tex": {
+   "size": 349620,
+   "sha256": "3e9e5ce1da6e1ce40cd007259fc4ef3926d1ab048b948cd979fec7d518c99edf"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7427FBD9.itm_rangedisc.mat": {
+   "size": 160,
+   "sha256": "7d7bd17a2150faed1f97f0519107b2030ebc677ea8a0a41d6fe1a28e7df8f5e1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x74AE8213.fx_bs_radspecial_lvl3_xlg_ragesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "3b4cd660e658a11f7703ea104875922cf7e4165f4698a7f17f6a65ce5a81e6ac"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7600C06A.fx_sm_2he_chargedsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "82fc0bb3c4a9664d68485e73399906c584ac117f5d352a0867e10554938e40f0"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x761D2EA0.itm_whodat000.mesh": {
+   "size": 77910,
+   "sha256": "62d96eb7ec5de4df08c386df4b2eef73597110acdb1e9eec9a5c88b8888b1a08"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7690F371.fx_webball_sml000.mesh": {
+   "size": 17630,
+   "sha256": "b4faaf950463c5c9ae2051efe91535f620f352125bb270336f80f2bf86a438f1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x79AAEB4D.gradient.tex": {
+   "size": 10820,
+   "sha256": "8728d59af2131eb806fce558e2c44bcc8051352091dec02eb4cdfe417e413a5e"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7A4096F6.fx_explode_core.tex": {
+   "size": 8260,
+   "sha256": "a624f174e07283922b83b9f4cea7d658f9829c0d51a367122195e18f4c658f42"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7C5C8CDD.fx_bs_radspecial_lgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "1c819a7762ca7c399bcf4d6a4ccdad7bfa1ea2f80167ce1334aa0346823a1835"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D3A1FBC.ch_spiderman_tex1_nor.tex": {
+   "size": 349620,
+   "sha256": "8173501ccd945c366cc5a2ea3fa4e6187d813581db6402981c9d3cc8ce75f7a5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D4C383D.ch_spiderman_tex2_nor.tex": {
+   "size": 349620,
+   "sha256": "30e266df8f295afb4036a836d17b22a9f3ac4d14d3bae646db1d912a76ac980c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D5711EB.fx_sm_2he000.mesh": {
+   "size": 1176,
+   "sha256": "7822e0fc271d9f4fdda00d4b9f9ffd7352fc2606d701390050bf1d63bcd2106d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D5E2562.ch_spiderman_tex3_dif.tex": {
+   "size": 11004,
+   "sha256": "2fc3bfb2afba373f20cf72f1fcd9f1f53b70bcabc132fa8cd574ef2aef1b554a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D5E50BE.ch_spiderman_tex3_nor.tex": {
+   "size": 87476,
+   "sha256": "4991c9aefa37a20e64c9f186ce2285294a2601f9ac265197f1aa56aba0b1df3c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D5E6093.ch_spiderman_tex3_rfl.tex": {
+   "size": 11004,
+   "sha256": "29d958b724bffab564e028353c2591eb0d31a116f850c368f6e42258d74fd3f0"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7D5E6617.ch_spiderman_tex3_spe.tex": {
+   "size": 43772,
+   "sha256": "72439980f903571b481971cbd05b45f292f964f4547333a70c88400f63dfadde"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7DB9691C.fx_smoke_a.tex": {
+   "size": 16452,
+   "sha256": "7348a67d690f353ebbf1b9b3600878c0fc1720712ab7fd4e08e490f84d5669cc"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7DB9691D.fx_smoke_b.tex": {
+   "size": 16452,
+   "sha256": "8ee31bb8cf25dcda1eb21971644369800210ba82ba53bd82df67462e1fa04f65"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7DB9691F.fx_smoke_d.tex": {
+   "size": 21940,
+   "sha256": "e88723565be4e82802ff7b020b6673109a8221fb7b832359a1179796ee901c8f"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7DB96920.fx_smoke_e.tex": {
+   "size": 131140,
+   "sha256": "fafde8f97fee107e08820886aa1543d13e7500a0e94b1f7381abb0dada678df1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7DB96923.fx_smoke_h.tex": {
+   "size": 21940,
+   "sha256": "e164c34437a479d4e6fc85cade415fedf1a529983172f7f226f680b7713fd226"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7F0C3A27.fx_sm_rad_lgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "ccb38884854ba8f0c4ac6f315ed52d63abbce0fd71d1063e30c57cedd64dbab4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x7F424438.fx_sand_speck.tex": {
+   "size": 180,
+   "sha256": "6f1d347125d3ecd1b6fa834708ae0754366da4f002aa64d632acab56f4e98077"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x802F0566.itm_black.tex": {
+   "size": 2116,
+   "sha256": "6e5dd73541236f548b31ff9fba287ef704cb18d017bfc07f14dcc99f8f3f0ff1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x83BF7C1E.fx_spark_a.tex": {
+   "size": 8260,
+   "sha256": "cfbef9c0e2224c59c3c6f6f28e05a8ba4a2ced1312fa09f7887d7099b0ec7091"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x83BF7C21.fx_spark_d.tex": {
+   "size": 65604,
+   "sha256": "f5c2db16987a1bd02e9b555a20a4770c1048b209567c7c67ca6f86e83d9e21ba"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x84EC8145.spideywebstringb.tex": {
+   "size": 16452,
+   "sha256": "bc555028e0c6cbaa69dae4ff889aa3a625abc717b20ac5eef49a1eec3e19c014"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x84EC8146.spideywebstringc.tex": {
+   "size": 16452,
+   "sha256": "8e033ea5033c642e8ca7a78ec93cf730e02e5c0c5607ecec7d12b82605f30676"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x87C886AF.fx_tendril_a.tex": {
+   "size": 16452,
+   "sha256": "a8540e2de0ab232342b3da953e65c9f14f6e88ca44f9a68e449a5a30a6d89662"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x8814A7ED.ch_blacksuit_webbing_dif2.tex": {
+   "size": 2628,
+   "sha256": "95e4cef62ca78ea2c3206c9302f400f3c7667cf2bb8b94166fe9e349deb9a9df"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x88972A35.fx_genhit_lightsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "3d484368141dfee4cc7bf1714b3b727e97dfc419b6206b471b9aceffd61387f8"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x895C4E8B.ch_white.tex": {
+   "size": 580,
+   "sha256": "508f2538f12341eaf1632a932c99cae2d1ca2e2443f55f2e5ad099fb399311f0"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x8BF5FCA9.fx_webtie_torsofx_webtie_mid.mat": {
+   "size": 160,
+   "sha256": "6f26a42f348ad573217d7817ec6662f157c0b2076fcaf951352fb0ff67a412c7"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x8CB525A0.fx_bs_radspecial_medsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "6bb04e8ed211291b3caf9acf68c4a1797c28e943777b722f8b4bddc96b7530d4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x8EE3A76C.fx_webtie_midfx_webtie_mid.mat": {
+   "size": 160,
+   "sha256": "8ac317597b94104ccf1f55d35bb98782cc3962dd405d32d6dc357b19a616c246"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x8F5B26D5.fx_bs_radspecial_lvl3_xlgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "00aaefd2f93750a3cb3cc64f2e8949b9361479575e85f4e41f0672314df04249"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x8F7A3D4D.itm_meshhitsparka000.mesh": {
+   "size": 738,
+   "sha256": "afc9b699a417e1bc1c5ec3e1af667d3848e47d547ef5feba73a93aa9f9dbfda3"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x909254A5.fx_liquid_a.tex": {
+   "size": 16452,
+   "sha256": "56ad9b0e05f8fb210cbe7aaaacfd7e39fed9b76f55a7eac917fb33d0a58660de"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x909254A6.fx_liquid_b.tex": {
+   "size": 16452,
+   "sha256": "c6ea8bcaaae832c679214eeae22fe02f19acb05b58ed47931b7273f2653ffaf6"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x909254A8.fx_liquid_d.tex": {
+   "size": 16452,
+   "sha256": "bd76bc31a9668158f10f3ad4988d00f50f65ea7ff7740fccf64c9de6924580eb"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x909254A9.fx_liquid_e.tex": {
+   "size": 16452,
+   "sha256": "213c2d8ff36295c89f71d93932926e78284be63d4275f818fbfead770376d1d2"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x91748DFF.fx_bs_rad_medsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "2bc4da3e373b44013ea3ac5454c0fc894afc68068f3d53fd9436549fada25563"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x91B6436C.fx_flash_b.tex": {
+   "size": 32836,
+   "sha256": "4a9da62f744ce5734935eb92cfaad1608bf251077ce5d991c8e6609db5d33fd9"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x91B6436E.fx_flash_d.tex": {
+   "size": 11004,
+   "sha256": "be99ddccde33ee91b2d60b6e379ef6c2fcc0b9ccb38d8db4322ad9375336e539"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x91B64370.fx_flash_f.tex": {
+   "size": 21924,
+   "sha256": "69129aa108100026b8a73bb17d21b300e917ef95cd1e5f7efee767b00190832a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x92289889.itm_grey45.tex": {
+   "size": 2116,
+   "sha256": "158f82f485c084bd49ebc12eed1e752fd1f1f063ba9f3035dc2451980f467fee"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x928CAD80.fx_sm_radspecial_lvl3_xlgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "3f38ef02935a1436055fd67040c4c2ff846be3d6caddbebb794d226d23dbc2a4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x97A92F64.fx_bs_radspecial_lvl4_xlg000.mesh": {
+   "size": 1176,
+   "sha256": "d5b392f8ee86c75a3f78d565c0be0b41e2c5586b11e90c3ce68551934a841f33"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x99E96A59.fx_genhit_charged000.mesh": {
+   "size": 1176,
+   "sha256": "43f03d6aff38d642b5d7fce3f6d7043744022721f907de88a4aa6b2ae70ed159"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x9D01706D.fx_melting.tex": {
+   "size": 65604,
+   "sha256": "084ff18f8b2013fb13dfaa6188e20c12a347ec8e66612be398ae0cdec3afad75"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x9D947678.fx_bs_hitsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "04f200bbe70a4ceec26126c9d5fc58d4cbe17a2e6611d276e2ccd1bd50ac462e"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0x9F6C18F8.fx_sm_2he_charged000.mesh": {
+   "size": 1176,
+   "sha256": "bd41b54bf707db563dd2df0e8e15ef24d92b86e73a73b5f18fbe0b9f176727e5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xA06B2F53.ch_normal.tex": {
+   "size": 16452,
+   "sha256": "8de4fd7aaf3ce8348ac7360512497ccb5344da74f9d496795bd315106e1bf51b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xA1405DFA.fx_genhit_heavysewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "201eb4dcd3719cc938bdbf5491c00ca50d684e67a8eb3f02315ffed3f36f67e7"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xA25CB86E.fx_bs_radspecial_med000.mesh": {
+   "size": 1176,
+   "sha256": "e6dfb2281ca17920046fec130f4e1c6301122bade095589924a912d8f402b3af"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xA2EE41B4.fx_bs_hit_heavysewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "b6dd7b2b9bc74770e0183fa2d9610f47eb8a14aae5e62c1f8be7f25f4968fa9a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xA977FE68.c_alpha.tex": {
+   "size": 580,
+   "sha256": "4155c4fcacfff6da5673df1a5b589bd03fd83f635f3538944cf5403f45023769"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xAAA42362.fx_bs_chargeup_asewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "35395349f6b7c5ed0aa1b8ca1ef8e615e514e6c2bc41af1aca8d244d2d232f78"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xAB28ED1B.fx_bs_radspecial_lg_ragesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "a8d771ea29c75b345b3caa7e9d3282b53ad2668e2e343e7a381707122ab3192a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xAB675A83.fx_bs_radspecial_lvl3_xlg000.mesh": {
+   "size": 1176,
+   "sha256": "f17086001af642dad1cf0c212e8a9598d03d1f705a3fc76a6b3b9e5cdfecf221"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xABAAAAC8.fx_bs_rage_spawn000.mesh": {
+   "size": 1176,
+   "sha256": "53d4290c6f7f2701226d5f309805560ee0e88b6c40d61fff54bb1c95121caefc"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xABE79B1C.ch_blacksuit000.mesh": {
+   "size": 3095278,
+   "sha256": "7f130dd5c342550f50484e60d3319413bf8de61a360c9243ff631f9550c21fb7"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xABE79B1D.ch_blacksuit001.mesh": {
+   "size": 352298,
+   "sha256": "f0ce50cfa07f6e655f163f15294f1cc90fd4a4f7e4bcbb131498af1ca104d3cc"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xACDEC634.fx_bs_radspecial_lvl4_xlg_ragesewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "45a8306f6cc142b6359b46b9281171d5cb2d5d80b1670b4ebda7b0c24ac006dc"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xB171EF96.fx_glow_a.tex": {
+   "size": 8260,
+   "sha256": "97d60398311cabf771b3d6fda707a47e36be9ef96e0b1846ba7de8df92f1cc65"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xB3ACE325.fx_hitsparkb.tex": {
+   "size": 21940,
+   "sha256": "0257253f5430b6a533a1eb28ec8f9d10880128f826efce6da7c4714d3d1f0295"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xB67467DA.nullo000.mesh": {
+   "size": 1168,
+   "sha256": "5148a35173f6cc4390e7a1a3c2b27340ef3e098eee0f926e60c6fc09a6a6fa75"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xB7565002.fx_bs_hit_heavy000.mesh": {
+   "size": 1176,
+   "sha256": "621dfda546bdb40b76c9e22ea228ace319b025700bbfe408599e88b6f15b0bac"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xB809FB01.fx_bs_radspecial_lvl3_xlg_rage000.mesh": {
+   "size": 1176,
+   "sha256": "e67de57d37700febf28e8d46a9e391a2e7239498736c5a45b53a65ebd618ace8"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xB96B6EBD.ch_blacksuitsideweb_black.mat": {
+   "size": 168,
+   "sha256": "e98f5b6dbfce505b8aeb45d5c06529c6a6ea84a318f63227465cf79d6e418f17"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xBA90E55C.fx_bs_rad_lgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "19ecd6b3b75c53769aaa4c131c763f93e2728b6e097329bda6b38de767f61fd8"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xBC9C6D0A.itm_meleeicon_material01.mat": {
+   "size": 160,
+   "sha256": "0fb99a2ed279f2133773267de6ed33abb01ed70f2c9d7736556482da56c8cfa5"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xBE4F84DD.ch_gray.tex": {
+   "size": 580,
+   "sha256": "7354d4a817152d385dbbac8a5b6289d72848e7fc4c5b3c6bada94927d9350828"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xBFD0F24E.itm_rangeicon_material.mat": {
+   "size": 160,
+   "sha256": "d55a062648d92eb6821f8bfd7531c558be8be2cec10feaaaa4cb62edbb53821f"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xC69BA325.fx_rocket_a.tex": {
+   "size": 8260,
+   "sha256": "39849e13092d9ecb3263fe03463b7219513147a702676a7c7f564b97fc92a30b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xC8AF7246.fx_bs_hit000.mesh": {
+   "size": 1176,
+   "sha256": "132518d723113a59cfa0fd9ed6547c2798420406cd6d583db5a58a42e91485d1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCA21BAAA.fx_bs_rad_lg000.mesh": {
+   "size": 1176,
+   "sha256": "ec7e86b6854e818a7a76f0f77ac284ff67395a2639b1993b8c78cb666a52daf2"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCA8ED0F0.fx_bs_chargeup_a000.mesh": {
+   "size": 1176,
+   "sha256": "c80575eaec9ff95177b76c27c505d756dee46b2eb7e6fdc6386b8dee527be949"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCAA3B077.fx_bs_rad_sm000.mesh": {
+   "size": 1176,
+   "sha256": "4554eae6e2b8e9e774c91011149ab51f7a903bf2045895d47e5c965e89797f7b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCAE3948D.fx_ring_a.tex": {
+   "size": 32836,
+   "sha256": "e988127d013fe65a588cfe1acd4349f404bcf02b716592125cee831ab2449a30"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCD67534A.fx_bubble_b.tex": {
+   "size": 4164,
+   "sha256": "4a4cfcf2f07b439b41bb11d5059c9c26e150327975e8f6d6763d5552ad253dec"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCD9B258D.nulloc_banana.mat": {
+   "size": 68,
+   "sha256": "8392ccbde4abcb529b0dde00149e9d8eb7cb7c7ee9a0d4e8dae52ccea5fab6c4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCDBE1404.itm_whodatenemy_attack_indicator_01.mat": {
+   "size": 160,
+   "sha256": "478e03853bc06bffd63a5d914d386f2b1fbc2bc66d762b24761187004de868ac"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCFD664A4.fx_bs_hit_rage000.mesh": {
+   "size": 1176,
+   "sha256": "e2102536816f723fdb3fe364ea7c99f250ae1fb1f65236cb34f77cbb69ea5320"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xCFF2156B.fx_sm_radspecial_medsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "72c5e5d199da4ce6b1c9baa470398034e01678c0d7d27744138d21707e6ad73d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xD44EA967.fx_web_bridge.tex": {
+   "size": 32836,
+   "sha256": "7b9ef4f635f30817ea30ecdbfaf255a3d8aa4e9d7deddaacdc5b08a1251d0c09"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xD600F630.fx_wave_a.tex": {
+   "size": 16452,
+   "sha256": "69eeb0db9c90e118c409632c2761ee2572e7676b3f859a6ba3bd2a234705b4e3"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xD67F03B2.ch_blacksuitbackspider_black.mat": {
+   "size": 168,
+   "sha256": "c4de474245446400dde1fd4e8a24edcd53c8ae35ca17a6ed18dd1f0068d572d8"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xD740943A.fx_bs_rage_spawnsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "07bc79d4a0b437e6b5ece7cfea7de8374f6d7727e7fb1ef42988dc1cd3e1042c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xD928DA12.ui_helptextbackerplate_new.mat": {
+   "size": 160,
+   "sha256": "05a1f7c283967712f553042bfcb995cc6c138f7aea3c1c02c084ed20ce5910cc"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xDA04B203.c_banana.tex": {
+   "size": 580,
+   "sha256": "2155af510715cd4a4ba138fd6d02269c735b553809d8a942ffe88e9708c252a1"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xDC6683D5.fx_gen_chargeup_a000.mesh": {
+   "size": 1176,
+   "sha256": "476f0d19fc254dce4ac779f7de112805b5c05864e6791951c3c9b1d477243ae6"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xDCBA7FE6.itm_range000.mesh": {
+   "size": 18682,
+   "sha256": "7ae4983151f278bbf18d05fc72f3426c0b0685a469081921d5a7849a3df6f651"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xE1C9B4BF.fx_bs_2he_chargedsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "0e8df485eb4bafd37612d8cd40c23bb2cb4209eb241919a94791b1c73b93489b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xE3F0083E.fx_whitescreen.tex": {
+   "size": 196,
+   "sha256": "0d46d981cc4901cd342c077612c9bfabea5f4cd1e5559b177d5dca05c320ee4d"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xE4D22C63.fx_whitesparkd.tex": {
+   "size": 8260,
+   "sha256": "eb74e55b68c0559601738636f96af0f3800d39228224b8a8457fdd59cc715819"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xEA1EAE95.fx_sm_rad_lg000.mesh": {
+   "size": 1176,
+   "sha256": "d87f5ef3d2cb0b6cf3a52eec3f9005e3e2e5a580dcd98dacd95a840a9183bd5a"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xEC63D119.ui_tr_01material_22.mat": {
+   "size": 160,
+   "sha256": "f1caa6ab5b239620ab909806b93c2aa884ef2e1a0bfb38d5622cad4986482803"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xEC9D2CBA.fx_ringfx_ring.mat": {
+   "size": 160,
+   "sha256": "90b6f5dcbc959d96b56cd38386bae11caf417fc7c33b1da3860e1ea2d96be0f4"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xECB154E6.fx_bs_hit_special000.mesh": {
+   "size": 1176,
+   "sha256": "8fce88ba94a46975414bfe8dfbda190235f27344b9b2ca5bef95b7558287332b"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xF555CB8B.fx_bs_radspecial_lg000.mesh": {
+   "size": 1176,
+   "sha256": "7409081a24a9c0763d5e1afc6cd2b965d7b5e7d336d8ba6133f9bda1b1bad38c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xF60951BF.ch_blacksuitspider_black__lod.mat": {
+   "size": 168,
+   "sha256": "68039dadaf40fdc17b605f3deded3f67ba186575c4b98d33d5a053170279d1a2"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xF7D6C42F.itm_rangeicon_material01.mat": {
+   "size": 160,
+   "sha256": "cdae45b4bd58082811169d292bc87878f145cd2abde4926c42a673db3d28130c"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xF812EE3F.fx_websplat_a.tex": {
+   "size": 16452,
+   "sha256": "c44e2ded65e21ad4e7423439c43ce07d9f3c18d323ff44f6a37c9e19ceada809"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xFA852F48.fx_sm_radspecial_lgsewer_f10_testcontainert.mat": {
+   "size": 136,
+   "sha256": "0c6112f456e23902afed70363bc3f3c41195f08aeea35279badb5e5e12706030"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xFB1258A3.ui_helptextbacker000.mesh": {
+   "size": 396,
+   "sha256": "ea76c651b44262e895eea6a53d8e0c4247294aa2268424e85f5e851e60a43cfe"
+  },
+  "vanilla/CH_BLACKSUIT/_O0108.0xF8ACB40C.T36.apkf/0xFF2D128F.itm_dodgedisc.mat": {
+   "size": 160,
+   "sha256": "f9887b303460955612ac4cde786b333133bbbd02757ae5a04db30c9c93513900"
+  },
+  "vanilla/CH_SPIDERMAN/_O0069.0xCFB154CD.T36.apkf/0x461356AE.ch_spidermanskeleton_ch_spiderman000.skel": {
+   "size": 10816,
+   "sha256": "056bc155abe09ce66416bace26313c389a8000c09ded293884583312574cc740"
+  },
+  "vanilla/CH_SPIDERMAN/_O0069.0xCFB154CD.T36.apkf/0x461356AF.ch_spidermanskeleton_ch_spiderman001.skel": {
+   "size": 10816,
+   "sha256": "3920f785dbe8f56829a8ba2d9f55a5cf519a5a5deb7624ae343776170cfe72b8"
+  },
+  "vanilla/CH_SPIDERMAN/_O0069.0xCFB154CD.T36.apkf/0xAC92103D.ch_spiderman000.mesh": {
+   "size": 3037588,
+   "sha256": "e7afb17b63ee7796716a8ca004d6b096c46d7e5ecfc68e7e9a1fd81ca2c7b697"
+  },
+  "vanilla/CH_SPIDERMAN/_O0069.0xCFB154CD.T36.apkf/0xAC92103E.ch_spiderman001.mesh": {
+   "size": 329918,
+   "sha256": "f5b4032acfffbf3e2efe87d01baabae13dd3d3abdde1880426c255998d6f988a"
+  },
+  "vanilla/tex_headers/0x038C2751.ch_spiderman_webbing_spe.hdr68.bin": {
+   "size": 68,
+   "sha256": "d5db0e99a63e2e768541f4f11c3d33b5b7b9fb9f83fa4cd9d231358c40f21d6e"
+  },
+  "vanilla/tex_headers/0x038C2764.ch_spiderman_webbing_spx.hdr68.bin": {
+   "size": 68,
+   "sha256": "45cac0d15f01f3417e58950deb22db281fbc30663909598bf7f71cd8d124750a"
+  },
+  "vanilla/tex_headers/0x3EEEC795.ch_spiderman_env.hdr68.bin": {
+   "size": 68,
+   "sha256": "2345b21cfb9f78c06d485d854509447c7950332056b3c5d910cd679a5209ddea"
+  },
+  "vanilla/tex_headers/0x61DCA273.normswizzle.hdr68.bin": {
+   "size": 68,
+   "sha256": "ce849fd8af96fcf9735866bbb7ec917c2635aebff6c71e0904700ab86d4e8a36"
+  },
+  "vanilla/tex_headers/0x66CED7A4.ch_spiderman_webbingblue_dif.hdr68.bin": {
+   "size": 68,
+   "sha256": "453ee4bfe89142cd11ea17f4a83cab1eb212b119f6952a1ebfb8ca85e55363d7"
+  },
+  "vanilla/tex_headers/0x70FE7BB1.ch_spideyps3_webbingalpha.hdr68.bin": {
+   "size": 68,
+   "sha256": "9ef06269fe9bdd640d4253f5b7d97bb7a7de856da72fcea172521c13f0b6ec5b"
+  },
+  "vanilla/tex_headers/0x7D4C383D.ch_spiderman_tex2_nor.hdr68.bin": {
+   "size": 68,
+   "sha256": "91186f26226b21275bf024a465d1bcd50dc89a74001a47e0e483df072eea7615"
+  },
+  "vanilla/tex_headers/0x7D5E2562.ch_spiderman_tex3_dif.hdr68.bin": {
+   "size": 68,
+   "sha256": "1345a8d10d45065124eb5d719ae53c4425f9a61fc17082e690e63c3158881d33"
+  },
+  "vanilla/tex_headers/0x8E661B33.ch_spiderman_spider.hdr68.bin": {
+   "size": 68,
+   "sha256": "1b23c7fa3195b4b70b2d882a65a68cbe7f9cc509899eae126e767db4efa63a94"
+  },
+  "vanilla/tex_headers/0x8F6EE8BE.ch_spiderman_tex2_ao.hdr68.bin": {
+   "size": 68,
+   "sha256": "0884670161590981720cac9fde8100545dc55f14f51ba1a58f591ac38c52b06f"
+  },
+  "vanilla/tex_headers/0x92AAC237.ch_spiderman_webbingred_dif.hdr68.bin": {
+   "size": 68,
+   "sha256": "50719306ae67b57da42b1590cfb1be56d1cf8461d2985480d07362f4695413e2"
+  },
+  "vanilla/tex_headers/0xA06B2F53.ch_normal.hdr68.bin": {
+   "size": 68,
+   "sha256": "1abe03c898e8fbd3ab129b93c1418e1191f280a25d4d19ee0c4cf50c916cec74"
+  },
+  "profiles/blacksuit/MESH/0x07690482.fx_bs_radspecial_lvl4_xlg_rage000.mesh": {
+   "size": 1176,
+   "sha256": "9d76531097694fdc48bf87dea2b96c16903782e0bde581e77271c2a741306d00"
+  },
+  "profiles/blacksuit/MESH/0x0BD86759.fx_sm_radspecial_med000.mesh": {
+   "size": 1176,
+   "sha256": "466314514b9791b784b8fbad6c4cadd0977a647bd454e134a976b0fba7c735e9"
+  },
+  "profiles/blacksuit/MESH/0x0C402D93.ui_tr_01000.mesh": {
+   "size": 8510,
+   "sha256": "64d15c5bde1c5889000b4db1f880e44e480147c642dec22f8484d4cded0e2e43"
+  },
+  "profiles/blacksuit/MESH/0x0EBC38A6.fx_webtie_mid000.mesh": {
+   "size": 25110,
+   "sha256": "30a9c9d890df1073693ea141ac4de25512033dde0e401938ecbf683e57888063"
+  },
+  "profiles/blacksuit/MESH/0x0F7C97DC.itm_dodge000.mesh": {
+   "size": 16526,
+   "sha256": "ae42fc85fc5ccf8ef0f8d9c5f0f36afa2e06ee6234a2b338db7fb521ed49f229"
+  },
+  "profiles/blacksuit/MESH/0x10505109.fx_bs_radspecial_lg_rage000.mesh": {
+   "size": 1176,
+   "sha256": "6b6b59e2fe252f3d4b1e207e14dfe6ce2f8e3d9478d5210126edf013e3bd83b5"
+  },
+  "profiles/blacksuit/MESH/0x10A68B6D.fx_bs_rad_med000.mesh": {
+   "size": 1176,
+   "sha256": "3b42c009692ccaa2f9f48326289862f95a177a390fdf480780b5670ce232f808"
+  },
+  "profiles/blacksuit/MESH/0x10D937E0.fx_bs_hit_heavy_rage000.mesh": {
+   "size": 1176,
+   "sha256": "eaa136a27b4bf9c7d2af76444ad99c983355ebe12185f17e634057e41e35c884"
+  },
+  "profiles/blacksuit/MESH/0x17DE6DA3.fx_webtie_torso000.mesh": {
+   "size": 25110,
+   "sha256": "ef79e71096c1a91d4a10383c258071ae6889682e48a915567d199cbe653f8cdd"
+  },
+  "profiles/blacksuit/MESH/0x1F51C916.fx_sm_radspecial_lg000.mesh": {
+   "size": 1176,
+   "sha256": "a3c1c50f16d17794e585933f149f5662755790a79f20e4208173e8f74197ef46"
+  },
+  "profiles/blacksuit/MESH/0x2755581D.fx_ring000.mesh": {
+   "size": 396,
+   "sha256": "39877fed9451f070fed0ed32c525d944f72bc7ffd53cc25a13629498b9187c7b"
+  },
+  "profiles/blacksuit/MESH/0x2832FA2D.fx_bs_2he_charged000.mesh": {
+   "size": 1176,
+   "sha256": "8fba04bec67d43172e26467983dccf7452ea47c85f0a35f3413c757bd2be4b46"
+  },
+  "profiles/blacksuit/MESH/0x3F8C144E.fx_sm_radspecial_lvl3_xlg000.mesh": {
+   "size": 1176,
+   "sha256": "f2d8b6e9f39a1072ac7969ff38efe18da84d8bf4153b45e1262c402e0ca9e1b2"
+  },
+  "profiles/blacksuit/MESH/0x42B901E3.fx_genhit_light000.mesh": {
+   "size": 1176,
+   "sha256": "0c28e972e3ec287c8847a52e2a3d3553978e9c76c5476f1fc47f83bbf53a4033"
+  },
+  "profiles/blacksuit/MESH/0x4A9E8E20.fx_bs_2he000.mesh": {
+   "size": 1176,
+   "sha256": "c4eab083ab59325f71c05e16d82b9b308cc474f649caf0daa6b03c6f457168f0"
+  },
+  "profiles/blacksuit/MESH/0x50C9DC88.fx_genhit_heavy000.mesh": {
+   "size": 1176,
+   "sha256": "e61cfe2616bdd84a8993d77a4b431bfccbe4bbccd4949c7e843b75e29913ad03"
+  },
+  "profiles/blacksuit/MESH/0x640DC3CC.fx_bs_radspecial_med_rage000.mesh": {
+   "size": 1176,
+   "sha256": "5aeeb8978cf25ef57f9fae6e0e359ad071c61e679e952fbc604d98ca1d1f9f80"
+  },
+  "profiles/blacksuit/MESH/0x669493AA.fx_webball_lrg000.mesh": {
+   "size": 17650,
+   "sha256": "3583d62a93a67b2e5e8e2bdd04137816ed4017cb65e2b3ac3e79ced8978f6126"
+  },
+  "profiles/blacksuit/MESH/0x67FCD89B.fx_webball_med000.mesh": {
+   "size": 17630,
+   "sha256": "dff2cff311d28d4cdd41bc30389d6f5b2dc2fc4f26af57f3e4c04f5c59886cbe"
+  },
+  "profiles/blacksuit/MESH/0x69569432.itm_exomissle000.mesh": {
+   "size": 12086,
+   "sha256": "bca1057542c1abd77e01425243089c8ea0805d9c26955ae3fdd402a00db2191e"
+  },
+  "profiles/blacksuit/MESH/0x6E8BC841.itm_melee000.mesh": {
+   "size": 18674,
+   "sha256": "7c1217dd5e263a4a85c5e240e40b50665c13654ea050081c73cc812bd5792c73"
+  },
+  "profiles/blacksuit/MESH/0x761D2EA0.itm_whodat000.mesh": {
+   "size": 77910,
+   "sha256": "62d96eb7ec5de4df08c386df4b2eef73597110acdb1e9eec9a5c88b8888b1a08"
+  },
+  "profiles/blacksuit/MESH/0x7690F371.fx_webball_sml000.mesh": {
+   "size": 17630,
+   "sha256": "b4faaf950463c5c9ae2051efe91535f620f352125bb270336f80f2bf86a438f1"
+  },
+  "profiles/blacksuit/MESH/0x7D5711EB.fx_sm_2he000.mesh": {
+   "size": 1176,
+   "sha256": "7822e0fc271d9f4fdda00d4b9f9ffd7352fc2606d701390050bf1d63bcd2106d"
+  },
+  "profiles/blacksuit/MESH/0x8F7A3D4D.itm_meshhitsparka000.mesh": {
+   "size": 738,
+   "sha256": "afc9b699a417e1bc1c5ec3e1af667d3848e47d547ef5feba73a93aa9f9dbfda3"
+  },
+  "profiles/blacksuit/MESH/0x97A92F64.fx_bs_radspecial_lvl4_xlg000.mesh": {
+   "size": 1176,
+   "sha256": "d5b392f8ee86c75a3f78d565c0be0b41e2c5586b11e90c3ce68551934a841f33"
+  },
+  "profiles/blacksuit/MESH/0x99E96A59.fx_genhit_charged000.mesh": {
+   "size": 1176,
+   "sha256": "43f03d6aff38d642b5d7fce3f6d7043744022721f907de88a4aa6b2ae70ed159"
+  },
+  "profiles/blacksuit/MESH/0x9F6C18F8.fx_sm_2he_charged000.mesh": {
+   "size": 1176,
+   "sha256": "bd41b54bf707db563dd2df0e8e15ef24d92b86e73a73b5f18fbe0b9f176727e5"
+  },
+  "profiles/blacksuit/MESH/0xA25CB86E.fx_bs_radspecial_med000.mesh": {
+   "size": 1176,
+   "sha256": "e6dfb2281ca17920046fec130f4e1c6301122bade095589924a912d8f402b3af"
+  },
+  "profiles/blacksuit/MESH/0xAB675A83.fx_bs_radspecial_lvl3_xlg000.mesh": {
+   "size": 1176,
+   "sha256": "f17086001af642dad1cf0c212e8a9598d03d1f705a3fc76a6b3b9e5cdfecf221"
+  },
+  "profiles/blacksuit/MESH/0xABAAAAC8.fx_bs_rage_spawn000.mesh": {
+   "size": 1176,
+   "sha256": "53d4290c6f7f2701226d5f309805560ee0e88b6c40d61fff54bb1c95121caefc"
+  },
+  "profiles/blacksuit/MESH/0xABE79B1C.ch_blacksuit000.mesh": {
+   "size": 3095278,
+   "sha256": "7f130dd5c342550f50484e60d3319413bf8de61a360c9243ff631f9550c21fb7"
+  },
+  "profiles/blacksuit/MESH/0xABE79B1D.ch_blacksuit001.mesh": {
+   "size": 352298,
+   "sha256": "f0ce50cfa07f6e655f163f15294f1cc90fd4a4f7e4bcbb131498af1ca104d3cc"
+  },
+  "profiles/blacksuit/MESH/0xB67467DA.nullo000.mesh": {
+   "size": 1168,
+   "sha256": "5148a35173f6cc4390e7a1a3c2b27340ef3e098eee0f926e60c6fc09a6a6fa75"
+  },
+  "profiles/blacksuit/MESH/0xB7565002.fx_bs_hit_heavy000.mesh": {
+   "size": 1176,
+   "sha256": "621dfda546bdb40b76c9e22ea228ace319b025700bbfe408599e88b6f15b0bac"
+  },
+  "profiles/blacksuit/MESH/0xB809FB01.fx_bs_radspecial_lvl3_xlg_rage000.mesh": {
+   "size": 1176,
+   "sha256": "e67de57d37700febf28e8d46a9e391a2e7239498736c5a45b53a65ebd618ace8"
+  },
+  "profiles/blacksuit/MESH/0xC8AF7246.fx_bs_hit000.mesh": {
+   "size": 1176,
+   "sha256": "132518d723113a59cfa0fd9ed6547c2798420406cd6d583db5a58a42e91485d1"
+  },
+  "profiles/blacksuit/MESH/0xCA21BAAA.fx_bs_rad_lg000.mesh": {
+   "size": 1176,
+   "sha256": "ec7e86b6854e818a7a76f0f77ac284ff67395a2639b1993b8c78cb666a52daf2"
+  },
+  "profiles/blacksuit/MESH/0xCA8ED0F0.fx_bs_chargeup_a000.mesh": {
+   "size": 1176,
+   "sha256": "c80575eaec9ff95177b76c27c505d756dee46b2eb7e6fdc6386b8dee527be949"
+  },
+  "profiles/blacksuit/MESH/0xCAA3B077.fx_bs_rad_sm000.mesh": {
+   "size": 1176,
+   "sha256": "4554eae6e2b8e9e774c91011149ab51f7a903bf2045895d47e5c965e89797f7b"
+  },
+  "profiles/blacksuit/MESH/0xCFD664A4.fx_bs_hit_rage000.mesh": {
+   "size": 1176,
+   "sha256": "e2102536816f723fdb3fe364ea7c99f250ae1fb1f65236cb34f77cbb69ea5320"
+  },
+  "profiles/blacksuit/MESH/0xDC6683D5.fx_gen_chargeup_a000.mesh": {
+   "size": 1176,
+   "sha256": "476f0d19fc254dce4ac779f7de112805b5c05864e6791951c3c9b1d477243ae6"
+  },
+  "profiles/blacksuit/MESH/0xDCBA7FE6.itm_range000.mesh": {
+   "size": 18682,
+   "sha256": "7ae4983151f278bbf18d05fc72f3426c0b0685a469081921d5a7849a3df6f651"
+  },
+  "profiles/blacksuit/MESH/0xEA1EAE95.fx_sm_rad_lg000.mesh": {
+   "size": 1176,
+   "sha256": "d87f5ef3d2cb0b6cf3a52eec3f9005e3e2e5a580dcd98dacd95a840a9183bd5a"
+  },
+  "profiles/blacksuit/MESH/0xECB154E6.fx_bs_hit_special000.mesh": {
+   "size": 1176,
+   "sha256": "8fce88ba94a46975414bfe8dfbda190235f27344b9b2ca5bef95b7558287332b"
+  },
+  "profiles/blacksuit/MESH/0xF555CB8B.fx_bs_radspecial_lg000.mesh": {
+   "size": 1176,
+   "sha256": "7409081a24a9c0763d5e1afc6cd2b965d7b5e7d336d8ba6133f9bda1b1bad38c"
+  },
+  "profiles/blacksuit/MESH/0xFB1258A3.ui_helptextbacker000.mesh": {
+   "size": 396,
+   "sha256": "ea76c651b44262e895eea6a53d8e0c4247294aa2268424e85f5e851e60a43cfe"
+  },
+  "profiles/blacksuit/SKEL/0x302DADCC.ch_blacksuitskeleton_ch_blacksuit000.skel": {
+   "size": 10816,
+   "sha256": "dc6bc7819a114c6d9c841731b87679d98698a5225f21f46c387c47918267af07"
+  },
+  "profiles/blacksuit/SKEL/0x302DADCD.ch_blacksuitskeleton_ch_blacksuit001.skel": {
+   "size": 10816,
+   "sha256": "61066f48f7d63a5626e85090531e7ac7f65275f810247867e617c81826e14b6e"
+  },
+  "profiles/venom/0x26EC9D72.ch_venomskeleton_ch_venom000.skel": {
+   "size": 10096,
+   "sha256": "fad5c37c25d5f93b733229fba9b876ead1e038d06d49b14f3a82fd39a3f5c7c0"
+  },
+  "profiles/venom/0x8910FC42.ch_venom01_-_default.mat": {
+   "size": 184,
+   "sha256": "bca6dbccbea1f712ff7e3193c85cfed7c8b369c15328af1b3521335d1d4cc081"
+  },
+  "profiles/venom/0xA164CFBD.ch_venom_nor.tex": {
+   "size": 2796292,
+   "sha256": "0ef44bb791e5040796f855c3aa37c8c10a56872fe0d07b3f0bd3b652b224d380"
+  },
+  "profiles/venom/0xA164D857.ch_venom_ppi.tex": {
+   "size": 2796272,
+   "sha256": "558d884625a6235a2197d04968a8a047cfca54f286b3f0024038ff8ca9d81795"
+  },
+  "profiles/venom/0xA164D85E.ch_venom_ppp.tex": {
+   "size": 2116,
+   "sha256": "eef4473c74ed8e52896328e6c5faf2603c334e768437c31754703ff187a89728"
+  },
+  "profiles/venom/0xBF11C1BF.ch_venom000.mesh": {
+   "size": 707874,
+   "sha256": "2675e24fee726398c39ab1efdefa9d87e1651340f1e8fcc308436de73d62d615"
+  },
+  "profiles/venom/0xBF12903E.ch_venom_ao.tex": {
+   "size": 1397828,
+   "sha256": "1753e1178f03aa5982742bc53a23d30633d5620ab24a54f34b6d0e7e2d549be2"
+  },
+  "profiles/venom/venom_direct_material.bin": {
+   "size": 184,
+   "sha256": "1a581876c7e23b02f5ee12fab7082dcee90816f8947e88344df96878feb4d6e7"
+  },
+  "profiles/venom/venom_shader_patch.json": {
+   "size": 1991,
+   "sha256": "c2adec07bfede5a391d7e83ccd36386ffca9c477e434844aaacc021b771722a6"
+  }
+ },
+ "distributed": {
+  "profiles/blacksuit/comparison.json": {
+   "size": 36604,
+   "sha256": "9f4dabad952b52c1b872c848eeaa03bf09a73c7938dc2071aae16db746127273"
+  },
+  "profiles/blacksuit/frames.json": {
+   "size": 1224,
+   "sha256": "cec63d2fd24cfb44f9526eda55387441722b4764e6a6f886510b20be35084dd3"
+  },
+  "profiles/rvb/sources.json": {
+   "size": 186,
+   "sha256": "44a63993c58ae064330421942cfde1c759b73f04dc4793354fb2ea0985ca4584"
+  },
+  "profiles/venom/roundtrip_validation.json": {
+   "size": 177,
+   "sha256": "f2e3ce66d51a53ae5b7aee6c64be07e2973f332f3f9f1924a6b704bce3a84f2e"
+  }
+ },
+ "optional": {
+  "profiles/rvb/ch_rvbblack000.glb": {
+   "size": 2334576,
+   "sha256": "5e9599c5048b85dfc32e3c422c2f7433058b497c51d631839f255ae71f86bf0f"
+  },
+  "profiles/rvb/ch_rvbblack000.json": {
+   "size": 909418,
+   "sha256": "88083b97c0b3c93ba6909a7306191c022cae805f0e2ba17a3a43654f0385dfcd"
+  },
+  "profiles/rvb/ch_rvbblack000.skeleton.json": {
+   "size": 40754,
+   "sha256": "53eb18de376afa4decd921d3b640c9a566c6be357e17b6e9c46a773ef9213509"
+  },
+  "profiles/rvb/ch_spiderman_rvb000.glb": {
+   "size": 1159348,
+   "sha256": "15712b66e6515d10996b75830738b10f45476ce550046465be79d6086b09ab93"
+  },
+  "profiles/rvb/ch_spiderman_rvb000.json": {
+   "size": 821923,
+   "sha256": "98bb3f43635ffdd58f08910a5b9f1662c68a36d6934764c33f32d9c6cb59ee9a"
+  },
+  "profiles/rvb/ch_spiderman_rvb000.skeleton.json": {
+   "size": 40733,
+   "sha256": "61329386767bf85477b7bffd03cef2dfaf95f171cf7acb5add9fd74f1b08d771"
+  }
+ }
+}

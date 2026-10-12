@@ -1,0 +1,235 @@
+{
+ "format": "sm3_costume_mat_recipe",
+ "version": 2,
+ "description": "How to build the 3 matte-suit pixel shaders (class sm_phatspiderman) from the ORIGINAL ones in the player's own Game.exe (Spider-Man 3 PC, 2007, 10 846 998 bytes). Contains no game bytes: \"copy\" ranges are byte offsets inside the original shader, \"insert\" bytes are ours (shortened table header, new string offset, def c100, mad_sat), \"values\" is where the preset's 4 floats go. Made by costume_mat_make_recipe.py.",
+ "shaders": [
+  {
+   "name": "69EDF0",
+   "offset": 6942192,
+   "size": 5704,
+   "sha256_original": "a57cbbd624b86fe07749c1864e6318db1815f8250b18f41f84a4c758b0a042c5",
+   "sha256_patched_without_values": "74e71908a087e9970c64a32872ea77e03701ff7d0ec8cea1d1f1156b644009ec",
+   "values_position": 1676,
+   "edits": [
+    {
+     "op": "copy",
+     "start": 0,
+     "end": 4,
+     "why": "version token (and anything before the constant table)"
+    },
+    {
+     "op": "insert",
+     "hex": "feff8101",
+     "why": "constant-table comment header, 11 tokens shorter (44 bytes given back)"
+    },
+    {
+     "op": "copy",
+     "start": 8,
+     "end": 16,
+     "why": "'CTAB' and the table size"
+    },
+    {
+     "op": "insert",
+     "hex": "f6050000",
+     "why": "creator-string offset, now pointing at the NUL that ends the target string \"ps_3_0\": the creator string becomes empty"
+    },
+    {
+     "op": "copy",
+     "start": 20,
+     "end": 1539,
+     "why": "rest of the constant table (constants, types, names, target), unchanged"
+    },
+    {
+     "op": "zeros",
+     "count": 9,
+     "why": "former creator text \"Microsoft (R) HLSL Shader Compiler ...\", blanked; never read by the game"
+    },
+    {
+     "op": "copy",
+     "start": 1592,
+     "end": 1712,
+     "why": "declarations and constants of the original shader, unchanged"
+    },
+    {
+     "op": "insert",
+     "hex": "5100000564000fa0",
+     "why": "def c100, ...  (opcode and register)"
+    },
+    {
+     "op": "values",
+     "count": 16,
+     "why": "Ks As Ke Ae: 4 little-endian float32, filled in from the preset"
+    },
+    {
+     "op": "copy",
+     "start": 1712,
+     "end": 2052,
+     "why": "original code up to and including the game's shine-weight instruction (writes r3)"
+    },
+    {
+     "op": "insert",
+     "hex": "04000004030016800300a5806400a0a06400f5a0",
+     "why": "mad_sat r3.yz, r3.yyzz, c100.xxzz, c100.yyww: our shine and reflection override"
+    },
+    {
+     "op": "copy",
+     "start": 2052,
+     "end": 5704,
+     "why": "rest of the original shader, unchanged"
+    }
+   ]
+  },
+  {
+   "name": "6A04F8",
+   "offset": 6948088,
+   "size": 5304,
+   "sha256_original": "e2aecb3f5e6a33e8974dd9d7c4b5e1880279e85937b79e6e19b59166e8502eda",
+   "sha256_patched_without_values": "b5b32fba00f401ff12509f32338c0e84950e77cd9bd2fa058226ffd0ce48562e",
+   "values_position": 1688,
+   "edits": [
+    {
+     "op": "copy",
+     "start": 0,
+     "end": 4,
+     "why": "version token (and anything before the constant table)"
+    },
+    {
+     "op": "insert",
+     "hex": "feff8a01",
+     "why": "constant-table comment header, 11 tokens shorter (44 bytes given back)"
+    },
+    {
+     "op": "copy",
+     "start": 8,
+     "end": 16,
+     "why": "'CTAB' and the table size"
+    },
+    {
+     "op": "insert",
+     "hex": "1a060000",
+     "why": "creator-string offset, now pointing at the NUL that ends the target string \"ps_3_0\": the creator string becomes empty"
+    },
+    {
+     "op": "copy",
+     "start": 20,
+     "end": 1575,
+     "why": "rest of the constant table (constants, types, names, target), unchanged"
+    },
+    {
+     "op": "zeros",
+     "count": 9,
+     "why": "former creator text \"Microsoft (R) HLSL Shader Compiler ...\", blanked; never read by the game"
+    },
+    {
+     "op": "copy",
+     "start": 1628,
+     "end": 1724,
+     "why": "declarations and constants of the original shader, unchanged"
+    },
+    {
+     "op": "insert",
+     "hex": "5100000564000fa0",
+     "why": "def c100, ...  (opcode and register)"
+    },
+    {
+     "op": "values",
+     "count": 16,
+     "why": "Ks As Ke Ae: 4 little-endian float32, filled in from the preset"
+    },
+    {
+     "op": "copy",
+     "start": 1724,
+     "end": 2088,
+     "why": "original code up to and including the game's shine-weight instruction (writes r3)"
+    },
+    {
+     "op": "insert",
+     "hex": "04000004030016800300a5806400a0a06400f5a0",
+     "why": "mad_sat r3.yz, r3.yyzz, c100.xxzz, c100.yyww: our shine and reflection override"
+    },
+    {
+     "op": "copy",
+     "start": 2088,
+     "end": 5304,
+     "why": "rest of the original shader, unchanged"
+    }
+   ]
+  },
+  {
+   "name": "6A2918",
+   "offset": 6957336,
+   "size": 4676,
+   "sha256_original": "fcf2bf81700f9f14a1a5f4111b3acceec9d7ea7c3b0d5d15ff9a52d9aa022dd5",
+   "sha256_patched_without_values": "4945399f2293552f072f60c1c1256739f34a176e8587621641472e3ff0195809",
+   "values_position": 1556,
+   "edits": [
+    {
+     "op": "copy",
+     "start": 0,
+     "end": 4,
+     "why": "version token (and anything before the constant table)"
+    },
+    {
+     "op": "insert",
+     "hex": "feff6f01",
+     "why": "constant-table comment header, 11 tokens shorter (44 bytes given back)"
+    },
+    {
+     "op": "copy",
+     "start": 8,
+     "end": 16,
+     "why": "'CTAB' and the table size"
+    },
+    {
+     "op": "insert",
+     "hex": "ae050000",
+     "why": "creator-string offset, now pointing at the NUL that ends the target string \"ps_3_0\": the creator string becomes empty"
+    },
+    {
+     "op": "copy",
+     "start": 20,
+     "end": 1467,
+     "why": "rest of the constant table (constants, types, names, target), unchanged"
+    },
+    {
+     "op": "zeros",
+     "count": 9,
+     "why": "former creator text \"Microsoft (R) HLSL Shader Compiler ...\", blanked; never read by the game"
+    },
+    {
+     "op": "copy",
+     "start": 1520,
+     "end": 1592,
+     "why": "declarations and constants of the original shader, unchanged"
+    },
+    {
+     "op": "insert",
+     "hex": "5100000564000fa0",
+     "why": "def c100, ...  (opcode and register)"
+    },
+    {
+     "op": "values",
+     "count": 16,
+     "why": "Ks As Ke Ae: 4 little-endian float32, filled in from the preset"
+    },
+    {
+     "op": "copy",
+     "start": 1592,
+     "end": 2148,
+     "why": "original code up to and including the game's shine-weight instruction (writes r3)"
+    },
+    {
+     "op": "insert",
+     "hex": "04000004030016800300a5806400a0a06400f5a0",
+     "why": "mad_sat r3.yz, r3.yyzz, c100.xxzz, c100.yyww: our shine and reflection override"
+    },
+    {
+     "op": "copy",
+     "start": 2148,
+     "end": 4676,
+     "why": "rest of the original shader, unchanged"
+    }
+   ]
+  }
+ ]
+}

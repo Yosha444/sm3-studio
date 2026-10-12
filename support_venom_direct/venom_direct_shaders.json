@@ -1,0 +1,166 @@
+{
+ "format": "sm3_venom_direct_shaders",
+ "version": 1,
+ "description": "How make_shaders_h.py builds shaders.h from the ORIGINAL pixel shaders of the player's own Game.exe (Spider-Man 3 PC, 2007). Instruction indices count the instructions of the original shader after its version token, comments (constant table) excluded. \"copy\" takes original instructions first..end-1, \"skip\" drops them, \"insert\" adds our tokens. No game bytes in this file.",
+ "header_comment": "// Generated from the shipped shader; only palette lookup is replaced.",
+ "shaders": [
+  {
+   "name": "shader_0",
+   "offset": 7124848,
+   "size": 5700,
+   "sha256_original": "13e0a40d0b7539aa7d2183f5a70c35716ef9b2e6ee58ef822a9f64a15c89c30f",
+   "signature": "d144527d",
+   "sha256_modified": "76cc58089de5cda4c7886ca5a0f5b77d2ede0cd54aed8fe398d6d5c8412c31ed",
+   "edits": [
+    {
+     "op": "copy",
+     "first": 0,
+     "end": 21
+    },
+    {
+     "op": "insert",
+     "tokens": [
+      "03000042",
+      "800f0000",
+      "90e40001",
+      "a0e40806",
+      "02000001",
+      "800f0001",
+      "a0ff0036"
+     ],
+     "asm": [
+      "texld r0, v1, s6",
+      "mov r1, c54.w"
+     ],
+     "skips": "original instructions 21..54 (the palette lookup)"
+    },
+    {
+     "op": "copy",
+     "first": 55,
+     "end": 250
+    }
+   ]
+  },
+  {
+   "name": "shader_1",
+   "offset": 7198432,
+   "size": 6196,
+   "sha256_original": "d7cf8a3b603d875447a4f5d4e30b9be945b8c180898f00ab2079f91df6c88b79",
+   "signature": "ecb0580d",
+   "sha256_modified": "ab67d5c5d70b851c699bb05a126af1d6b58ce8ff7ed078c396afe38e969a034b",
+   "edits": [
+    {
+     "op": "copy",
+     "first": 0,
+     "end": 20
+    },
+    {
+     "op": "insert",
+     "tokens": [
+      "03000042",
+      "800f0000",
+      "90e40001",
+      "a0e40806",
+      "02000001",
+      "800f0001",
+      "a0ff0034"
+     ],
+     "asm": [
+      "texld r0, v1, s6",
+      "mov r1, c52.w"
+     ],
+     "skips": "original instructions 20..58 (the palette lookup)"
+    },
+    {
+     "op": "copy",
+     "first": 59,
+     "end": 281
+    }
+   ]
+  },
+  {
+   "name": "shader_2",
+   "offset": 7205120,
+   "size": 5168,
+   "sha256_original": "bdf541e94cd5dfab37f64ca0eb0c016ea491b002f3a32e976212b7ce735df723",
+   "signature": "bf856529",
+   "sha256_modified": "620c1b6301d13a3db10c237b4e70cc53597bccc65d0c93890304dacdd7f0cde5",
+   "edits": [
+    {
+     "op": "copy",
+     "first": 0,
+     "end": 16
+    },
+    {
+     "op": "insert",
+     "tokens": [
+      "03000042",
+      "800f0000",
+      "90e40001",
+      "a0e40806",
+      "02000001",
+      "800f0001",
+      "a0ff0033"
+     ],
+     "asm": [
+      "texld r0, v1, s6",
+      "mov r1, c51.w"
+     ],
+     "skips": "original instructions 16..47 (the palette lookup)"
+    },
+    {
+     "op": "copy",
+     "first": 48,
+     "end": 49
+    },
+    {
+     "op": "skip",
+     "first": 49,
+     "end": 56
+    },
+    {
+     "op": "copy",
+     "first": 56,
+     "end": 222
+    }
+   ]
+  },
+  {
+   "name": "shader_3",
+   "offset": 7210480,
+   "size": 5796,
+   "sha256_original": "02f959894b9081a91fc32bfa267d3ad7c2021654430a611d0eb7f00e78584046",
+   "signature": "1f10a09d",
+   "sha256_modified": "cbd4fecc3dcce0b5005c5c448c0efe6ce0012dc5e6becfcb273db61ea45e3a0b",
+   "edits": [
+    {
+     "op": "copy",
+     "first": 0,
+     "end": 21
+    },
+    {
+     "op": "insert",
+     "tokens": [
+      "03000042",
+      "800f0000",
+      "90e40001",
+      "a0e40806",
+      "02000001",
+      "800f0001",
+      "a0ff0033"
+     ],
+     "asm": [
+      "texld r0, v1, s6",
+      "mov r1, c51.w"
+     ],
+     "skips": "original instructions 21..59 (the palette lookup)"
+    },
+    {
+     "op": "copy",
+     "first": 60,
+     "end": 255
+    }
+   ]
+  }
+ ]
+}

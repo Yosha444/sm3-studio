@@ -1,0 +1,7 @@
+# The measurement files under profiles/ are compared byte for byte with the reference
+# installation (tools/game_data_fingerprints.json, section "distributed"). They were written with
+# Windows line ends (CRLF): keep git from converting them, whatever core.autocrlf says.
+/profiles/** -text
+# Windows batch files keep CRLF line ends wherever they are checked out: cmd.exe can misread
+# an LF-only batch file (labels, long lines).
+*.cmd text eol=crlf
